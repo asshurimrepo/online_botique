@@ -1,3 +1,9 @@
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important; }
 
+body {
+  padding-top: 51px;
+  padding-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */
