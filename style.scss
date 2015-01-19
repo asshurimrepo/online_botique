@@ -7,3 +7,87 @@ body{
   padding-top: 51px;
   padding-bottom: 20px;
 }
+
+.ribbon {
+  font: bold 15px Sans-Serif;
+  color: #333;
+  text-align: center;
+  text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -5px;
+  top: 26px;
+  width: 150px;
+  color: #6a6340;
+  -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.ribbon:before, .ribbon:after {
+  content: "";
+  border-top: 3px solid #6e8900;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  position: absolute;
+  bottom: -3px;
+}
+
+.ribbon:after {
+  right: 0;
+}
+.ribbon:before {
+  left: 0;
+}
+
+.ribbon-wrapper {
+  width: 111px;
+  height: 146px;
+  overflow: hidden;
+  position: absolute;
+  top: -4px;
+  right: 12px;
+  z-index: 200;
+}
+
+.ribbon-green {
+  background-color: #BFDC7A;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45));
+  background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45);
+  background-image: -moz-linear-gradient(top, #BFDC7A, #8EBF45);
+  background-image: -ms-linear-gradient(top, #BFDC7A, #8EBF45);
+  background-image: -o-linear-gradient(top, #BFDC7A, #8EBF45);
+}
+
+.ribbon-red {
+  color: #fff;
+  text-shadow: none;
+  background: #ff3019;
+  background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3019), color-stop(100%,#cf0404));
+  background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+  background: -o-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+  background: -ms-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+  background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 );
+}
+
+.frames .item img{
+  width: 100%;
+}
+
+.frames .item .detail h4, .frames .item .detail a{
+  color: #FFF;
+}
+
+.frames .item .detail {
+  background-color:#222;
+  bottom: 0;
+  padding: 5px 15px;
+  margin-bottom: -5px;
+  position: relative;
+}
