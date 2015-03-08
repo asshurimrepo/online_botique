@@ -2,7 +2,7 @@
         xmlns:gap       = "http://phonegap.com/ns/1.0"
         xmlns:android   = "http://schemas.android.com/apk/res/android"
         id              = "com.asshurim.ukay"
-        version         = "1.0.0" >
+        version         = "1.0.0" />
 
 <supports-screens android:anyDensity="true" android:resizeable="true"
                   android:smallScreens="true"
