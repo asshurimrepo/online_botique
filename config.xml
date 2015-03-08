@@ -1,13 +1,19 @@
-<widget xmlns       = "http://www.w3.org/ns/widgets"
-        xmlns:gap       = "http://phonegap.com/ns/1.0"
-        xmlns:android   = "http://schemas.android.com/apk/res/android"
-        id              = "com.asshurim.ukay"
-        version         = "1.0.0" />
+<?xml version="1.0" encoding="UTF-8"?>
 
-<supports-screens android:anyDensity="true" android:resizeable="true"
-                  android:smallScreens="true"
-                  android:normalScreens="true"
-                  android:largeScreens="true"
-                  android:xlargeScreens="true" />
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.asshurim.ukay"
+        version   = "1.0.0">
+
+    <name>Ukay Outfits</name>
+
+    <description>
+        Ukay is a first trial project in android.
+    </description>
+
+    <author href="http://phonegap.com" email="support@phonegap.com">
+        Asshurim Team
+    </author>
 
 <icon src="icon.png" />
